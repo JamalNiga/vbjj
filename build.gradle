@@ -118,8 +118,4 @@ android {
             return true
         }
     }
-
-    lintOptions {
-        abortOnError false
-    }
 }
