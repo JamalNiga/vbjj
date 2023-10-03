@@ -44,7 +44,7 @@ jobs:
 
       # Run Tests Build
       - name: Run gradle tests
-        run: sdk install gradle 4.1.2 && ./gradlew test 
+        run: gradle wrapper --gradle-version 4.1.2 && ./gradlew test 
 
       # Run Build Project
       - name: Build gradle project
