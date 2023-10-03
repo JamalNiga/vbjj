@@ -37,10 +37,6 @@ dependencies {
 
 android {
 
-    lintOptions {
-          abortOnError false
-    }
-
     compileSdkVersion 29
     buildToolsVersion '29.0.3'
 
@@ -121,5 +117,9 @@ android {
 
             return true
         }
+    }
+
+    lintOptions {
+        abortOnError false
     }
 }
